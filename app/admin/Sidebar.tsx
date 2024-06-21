@@ -16,6 +16,7 @@ function Sidebar() {
 
         return (
           <Button
+            key={adminLink.href}
             asChild
             variant={variant}
             className="w-full mb-2 capitalize font-normal justify-start"
